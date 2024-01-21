@@ -3,10 +3,10 @@ from pika.exchange_type import ExchangeType
 import time
 import json
 
-username = 'admin'
-password = 'SAra131064!@#'
-host = 'new-dbaas.abriment.com'
-port = 32660
+username = '###########'
+password = '***********'
+host = '###########'
+port = ****
 
 cred = pika.credentials.PlainCredentials(username, password)
 params = pika.ConnectionParameters(host=host, port=port, credentials=cred)
